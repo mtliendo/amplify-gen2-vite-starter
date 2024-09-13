@@ -1,8 +1,8 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import RootLayout from './layouts/RootLayout'
 import ProtectedLayout from './layouts/ProtectedLayout'
-import HomePage from './pages/HomePage'
-import ProtectedPage from './pages/ProtectedPage'
+import HomePage from './routes/Home'
+import ProtectedPage from './routes/Protected'
 import { Authenticator } from '@aws-amplify/ui-react'
 
 const router = createBrowserRouter([
